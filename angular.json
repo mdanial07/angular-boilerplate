@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "onlineacademy": {
+    "angularboiler": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/onlineacademy",
+            "outputPath": "dist/angularboiler",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,18 +68,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "onlineacademy:build"
+            "browserTarget": "angularboiler:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "onlineacademy:build:production"
+              "browserTarget": "angularboiler:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "onlineacademy:build"
+            "browserTarget": "angularboiler:build"
           }
         },
         "test": {
@@ -117,16 +117,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "onlineacademy:serve"
+            "devServerTarget": "angularboiler:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "onlineacademy:serve:production"
+              "devServerTarget": "angularboiler:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "onlineacademy"
+  "defaultProject": "angularboiler"
 }

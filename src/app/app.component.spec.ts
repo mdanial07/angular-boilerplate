@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'onlineacademy'`, () => {
+  it(`should have as title 'angularboiler'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('onlineacademy');
+    expect(app.title).toEqual('angularboiler');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('onlineacademy app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('angularboiler app is running!');
   });
 });
