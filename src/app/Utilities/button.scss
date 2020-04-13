@@ -1,0 +1,22 @@
+@import "../../styles.scss";
+
+.Button {
+  padding: 10px;
+  margin: 10px 5px;
+  font-size: 14px;
+  color: $fontColorsecondary;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid $primaryColor;
+  span {
+    padding: 0 10px;
+    width: max-content;
+  }
+}
+.Button:hover {
+  background-color: $primaryColor;
+  color: #fff;
+}

@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+@import "@angular/material/prebuilt-themes/indigo-pink.css";
+
+$primaryColor: #6c7296;
+$secondaryColor: #e6e6e6;
+$borderColor: #e6ecf5;
+$fontColorprimary: #b7b7b8;
+$fontColorsecondary: #6a6866;
+$hoverColor: #f4f4f4;
+$font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif !important;
+
+//Status
+$active: #37c936;
+$deactive: #f44336;
+$pending: #fc0;
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: $font-family;
+}
